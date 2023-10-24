@@ -1,3 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+
+    /* outline: 1px solid red; */
+}
+
 @font-face {
     font-family: 'Norse Bold';
     src: url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot');
@@ -75,10 +85,33 @@ button {
     color: white;
 }
 
+.rectangle {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 375px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    height: 100px;
+    width: 70px;
+    margin-left: 100px;
+}
+
 span[name='buttonlogin'] {
     color: #596d48;
 }
 
 span[name='title2'] {
     font-weight: bold;
+}
+
+span[name='odinLogo'] {
+    font-family: 'Norse Bold', sans-serif;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    margin-top: 25px;
 }
